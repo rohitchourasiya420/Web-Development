@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+</head>
+<body>
+    <h3 style="padding: 10px;"><b>Nested Table</b></h3>
+    <table border="1px">
+        <thead>
+            <th>Header Column 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+        </thead>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row 2 - Item 2</td>
+            <td colspan="2"><b>Row 2 : Nested Table 1</b>
+                <table border="1px" colspan="2">
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>Item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Row 2 - Item 4</td>
+        </tr>
+        <tr>
+            <td>Row 3 - Item 1</td>
+            <td>Row 3 - Item 2</td>
+            <td>Row 3 - Item 3</td>
+            <td>Row 3 - Item 4</td>
+        </tr>
+        <tr>
+            <td>Row 3 - Item 1</td>
+            <td>Row 3 - Item 2</td>
+            <td>Row 3 - Item 3</td>
+            <td>Row 3 - Item 4</td>
+        </tr>
+        <tr>
+            <td>Row 4 - Item 1</td>
+            <td>Row 4 - Item 2</td>
+            <td>Row 4 - Item 3</td>
+            <td>Row 4 - Item 4</td>
+        </tr>
+    </table>
+</body>
+</html>
